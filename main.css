@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+}
+
+ul.navbar-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+ul.navbar-ul li {
+    float: left;
+}
+
+ul.navbar-ul li.right {
+    float: right;
+}
+
+ul.navbar-ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+  }
+  
+
+.active {
+    background-color: rgba(70, 70, 70, 0.3);
+}
+
+div.banner {
+    width: 100%;
+    background-image: url(the-memorial/zumbo-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+}
+
+div.memorial-text {
+    width: 70%;
+    float: left;
+}
+
+div.memorial-text h1 {
+    color: Black;
+    text-align: center;
+    margin-top: 140px;
+    font-size: 72px;
+    padding: 50px 50px;
+}
+
+div.memorial-text h2{
+    color: Black;
+    text-align: center;
+    margin-top: -50px;
+}
+
+div.memorial-image {
+    width: 30%;
+    float: left;
+}
+
+img.memorial-image {
+    padding: 50px 50px;
+    margin-top: 50px;
+}
+
+.the-room {
+    background-image: url(the-room/the-room.png);
+    background-size: cover;
+}
